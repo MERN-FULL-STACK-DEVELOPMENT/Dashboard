@@ -81,3 +81,35 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+li::before {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  .side-button-icon {
+    height: 2vw;
+    width: 2vw;
+    position: relative;
+    top: 1vh;
+
+  }
+  .list-element {
+    list-style-type: none;
+  } 
+  .text-align {
+    text-decoration: none;
+  }
+
+  .project-card:hover {
+    background-color: yellow;
+  }
+
+#size{
+    height: 50px;
+    width: 50px;
+}
+
+.font-text{
+    color: #ffffff;
+}
