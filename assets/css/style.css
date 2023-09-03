@@ -22,6 +22,24 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 15px;
+}
+
+#project-card {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#project-card1 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color:black;
 }
 
 header {
@@ -101,7 +119,7 @@ li::before {
     text-decoration: none;
   }
 
-  .project-card:hover {
+#project-card:hover {
     background-color: yellow;
   }
 
@@ -112,4 +130,13 @@ li::before {
 
 .font-text{
     color: #ffffff;
+}
+
+.flex-column{
+    display:flex;
+    flex-flow: column;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row;
 }
